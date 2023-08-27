@@ -1,10 +1,10 @@
 ---
-title: "My First Post"
+title: "The Business Value of Event-driven Architecture"
 date: 2023-08-27T14:46:55-05:00
 draft: true
 ---
 
-## Introduction
+# Introduction
 
 This is **bold** text, and this is *emphasized* text.
 
