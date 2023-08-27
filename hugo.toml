@@ -1,5 +1,4 @@
 baseURL = 'https://www.angelomunoz.com/'
 languageCode = 'en-us'
-title = 'Angelo Munoz blog'
+title = 'Angelo Munoz'
 theme = 'ananke'
-
