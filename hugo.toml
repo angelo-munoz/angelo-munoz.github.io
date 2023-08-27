@@ -1,5 +1,5 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://www.angelomunoz.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Angelo Munoz blog'
 theme = 'ananke'
 
