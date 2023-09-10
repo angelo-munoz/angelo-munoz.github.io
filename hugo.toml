@@ -2,7 +2,7 @@ baseURL = 'https://www.angelomunoz.com/'
 languageCode = 'en-us'
 title = 'Angelo Munoz blog'
 # # theme = 'hugo-initio'
- theme = 'anatole'
+theme = 'anatole'
 copyright = "Angelo Munoz 2020 - {{ YEAR }}"
 enableEmoji = true
 
@@ -31,7 +31,7 @@ min_version = "0.53.0"
 title = "Angelo Munoz"
 author = "Angelo Munoz"
 description = "Architect, Strategist, Technology Leader"
-profilePicture = "am_profile_photo.png"    
+profilePicture = "images/am_profile_photo.png"    
 copyright = "Angelo Munoz 2020 - {{ YEAR }}"
 #postSectionName = "blog"
 # mainSections = ["blog"]
