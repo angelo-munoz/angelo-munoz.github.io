@@ -1,4 +1,194 @@
 baseURL = 'https://www.angelomunoz.com/'
 languageCode = 'en-us'
-title = 'Angelo Munoz'
-theme = 'ananke'
+title = 'Angelo Munoz blog'
+# # theme = 'hugo-initio'
+ theme = 'anatole'
+copyright = "Angelo Munoz 2020 - {{ YEAR }}"
+enableEmoji = true
+
+#### Anatole theme ####
+name = "Anatole"
+license = "MIT"
+licenselink = "https://github.com/lxndrblz/anatole/blob/master/LICENSE"
+description = "Anatole is a beautiful minimalist two-column hugo theme based on farbox-theme-Anatole."
+homepage = "https://github.com/lxndrblz/anatole/"
+demosite = "https://anatole-demo.netlify.app/"
+tags = ["blog", "responsive", "clean", "minimalist", "minimal", "personal", "dark"]
+features = ["blog", "seo", "responsive", "mobile", "disqus", "fontawesome", "analytics", "math"]
+min_version = "0.53.0"
+
+[author]
+  name = "Alexander Bilz"
+  homepage = "https://alexbilz.com"
+
+# If porting an existing theme
+[original]
+  author = "Cai Cai"
+  homepage = "https://www.caicai.me/"
+  repo = "https://github.com/hi-caicai/farbox-theme-Anatole"
+
+[params]
+title = "Angelo Munoz"
+author = "Angelo Munoz"
+description = "Architect, Strategist, Technology Leader"
+profilePicture = "am_profile_photo.png"    
+copyright = "Angelo Munoz 2020 - {{ YEAR }}"
+#postSectionName = "blog"
+# mainSections = ["blog"]
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "LinkedIn"
+url = "https://www.linkedin.com/in/angelo-munoz/"
+
+[[params.socialIcons]]
+icon = "fab fa-medium"
+title = "Medium"
+url = "https://angelomunoz.medium.com/"
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Blog"
+  weight = 200
+  identifier = "blog"
+  url = "/blog/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+
+#### hugo-sustain config ####
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+# name = "Sustain"
+# license = "MIT"
+# licenselink = "https://github.com/nurlansu/hugo-sustain/blob/master/LICENSE.md"
+# description = "Personal blog built with Bootstrap, powered by Hugo"
+# homepage = "https://github.com/nurlansu/hugo-sustain"
+# tags = ["blog", "minimal", "responsive"]
+# features = ["responsive", "syntax highlighting"]
+# min_version = "0.41.0"
+
+# [author]
+#   name = "Nurlan Suyundukov"
+#   homepage = "https://nurlan.co/"
+
+# # If porting an existing theme
+# [original]
+#   name = "Sustain"
+#   homepage = "https://biomadeira.github.io/sustain/"
+#   repo = "https://github.com/biomadeira/sustain"
+
+
+#### hugo-initio config ####
+# [params]
+#     name = "Angelo Munoz"
+#     description = "Architect, Strategist, Technology Leader"
+#     email = ""
+#     phone = "+1 2702160927"
+#     address = ""
+#     year = 2023
+#     avatar = "images/guy.jpg"
+#     avatarclass = "circle"
+#     background = ""
+#     banner = "images/bg_head.jpg"
+#     favicon = "images/gt_favicon.png"
+#     DateForm = "January 2, 2006"
+#     author = "Sergey Pozhilov (GetTemplate.com)"
+
+#     showSubheader = true
+#     showServices = true
+#     showRecentWorks = true
+#     showDownloads = true
+#     showClients = true
+
+#     showFooterContact = true
+#     showFooterFollowMe = true
+#     showFooterTextWidget = true
+#     showFooterFormWidget = true
+
+# [[menu.main]]
+#     name = "home"
+#     url = "/"
+#     weight = 1
+# [[menu.main]]
+#     name = "blog"
+#     url = "/post/"
+#     weight = 5
+
+# [params.disqus]
+#     site = "hugo-initio-site.disqus.com"
+
+# [params.sharethis]
+#     property = "123456789012345678901234"
+#     custom = true
+
+# [params.google.analytics]
+#     trackerID = "GA-000000000-0"
+
+# [[params.social]]
+# 	title = "facebook"
+# 	url = "https://www.facebook.com/nickname"
+#     icon = "fab fa-facebook-square"
+#     footer = true
+#     sharethis = true
+#     network = "facebook"
+# [[params.social]]
+# 	title = "twitter"
+# 	url = "https://twitter.com/nickname"
+#     icon = "fab fa-twitter-square"
+#     footer = true
+#     sharethis = true
+#     network = "twitter"
+# [[params.social]]
+# 	title = "instagram"
+# 	url = "https://www.instagram.com/nickname"
+#     icon = "fab fa-instagram"
+#     footer = true
+#     sharethis = false
+#     network = ""
+# [[params.social]]
+# 	title = "google+"
+# 	url = "https://plus.google.com/+nickname"
+#     icon = "fab fa-google-plus-square"
+#     footer = false
+#     sharethis = true
+#     network = "googleplus"
+# [[params.social]]
+# 	title = "linkedin"
+# 	url = "https://www.linkedin.com/in/nickname"
+#     icon = "fab fa-linkedin"
+#     footer = false
+#     sharethis = true
+#     network = "linkedin"
+# [[params.social]]
+# 	title = "tumblr"
+# 	url = "https://nickname.tumblr.com"
+#     icon = "fab fa-tumblr-square"
+#     footer = false
+#     sharethis = false
+#     network = "tumblr"
+# [[params.social]]
+# 	title = "github"
+# 	url = "https://github.com/nickname"
+#     icon = "fab fa-github"
+#     footer = true
+#     sharethis = false
+#     network = ""
+# [[params.social]]
+# 	title = "email"
+# 	url = "mailto:some.email@somewhere.com"
+#     icon = "fas fa-envelope-square"
+#     footer = false
+#     sharethis = true
+#     network = "email"
